@@ -363,7 +363,7 @@ TRAINING_SUBMENUS = {
         "title": "Категорії матеріалів",
         "options": {
             "exercises": "📍 вправи",
-            "all_education": "📍 всеобучі",
+            "all_education": "📍 анкети",
             "educational_hours": "📍 виховні години",
             "info_materials": "📍 інформаційні матеріали",
             "psychological_hours": "📍 психологічні години",
