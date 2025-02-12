@@ -233,7 +233,7 @@ MENU_DATA = {
             "title": "🎯 вправи"
         },
         "all_education": {
-            "title": "🎓 всеобучі"
+            "title": "🎓 анкети"
         },
         "educational_hours": {
             "title": "⏰ виховні години"
