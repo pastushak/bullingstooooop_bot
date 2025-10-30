@@ -1,17 +1,17 @@
-{
+x{
   "functions": [
     {
       "source": "functions",
       "codebase": "default",
-      "runtime": "python312",
-      "entryPoint": "telegram_webhook",
+      "disallowLegacyRuntimeConfig": true,
       "ignore": [
         "venv",
         ".git",
         "firebase-debug.log",
         "firebase-debug.*.log",
         "*.local"
-      ]
+      ],
+      "runtime": "python313"
     }
   ]
 }

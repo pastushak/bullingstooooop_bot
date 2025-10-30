@@ -1,0 +1,65 @@
+[debug] [2025-10-30T22:38:51.406Z] ----------------------------------------------------------------------
+[debug] [2025-10-30T22:38:51.409Z] Command:       /home/roman/.local/share/nvm/v20.19.5/bin/node /home/roman/.local/share/nvm/v20.19.5/bin/firebase deploy --only functions --debug
+[debug] [2025-10-30T22:38:51.409Z] CLI Version:   14.22.0
+[debug] [2025-10-30T22:38:51.410Z] Platform:      linux
+[debug] [2025-10-30T22:38:51.410Z] Node Version:  v20.19.5
+[debug] [2025-10-30T22:38:51.410Z] Time:          Fri Oct 31 2025 00:38:51 GMT+0200 (за східноєвропейським стандартним часом)
+[debug] [2025-10-30T22:38:51.410Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-30T22:38:51.781Z] Field "/functions" in "firebase.json" is possibly invalid: must be object
+[debug] [2025-10-30T22:38:51.783Z] Field "/functions" in "firebase.json" is possibly invalid: must be object
+[debug] [2025-10-30T22:38:51.784Z] Object "/functions/0" in "firebase.json" has unknown property: {"additionalProperty":"entryPoint"}
+[debug] [2025-10-30T22:38:51.784Z] Object "/functions/0" in "firebase.json" is missing required property: {"missingProperty":"remoteSource"}
+[debug] [2025-10-30T22:38:51.784Z] Field "/functions/0" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-10-30T22:38:51.785Z] Field "/functions" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-10-30T22:38:51.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-30T22:38:51.792Z] > authorizing via signed-in user (namorovychok@gmail.com)
+[debug] [2025-10-30T22:38:51.792Z] [iam] checking project bullingstooooop-bot for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2025-10-30T22:38:51.794Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:51.795Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:51.797Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot:testIamPermissions [none]
+[debug] [2025-10-30T22:38:51.798Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot:testIamPermissions x-goog-quota-user=projects/bullingstooooop-bot
+[debug] [2025-10-30T22:38:51.798Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-10-30T22:38:52.821Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot:testIamPermissions 200
+[debug] [2025-10-30T22:38:52.821Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-10-30T22:38:52.822Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:52.822Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:52.822Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/bullingstooooop-bot/serviceAccounts/bullingstooooop-bot@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-10-30T22:38:52.823Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/bullingstooooop-bot/serviceAccounts/bullingstooooop-bot@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-10-30T22:38:53.866Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/bullingstooooop-bot/serviceAccounts/bullingstooooop-bot@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-10-30T22:38:53.867Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/bullingstooooop-bot/serviceAccounts/bullingstooooop-bot@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'bullingstooooop-bot'...
+[info] 
+[info] i  deploying functions 
+[debug] [2025-10-30T22:38:53.872Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:53.872Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:53.872Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot [none]
+[debug] [2025-10-30T22:38:54.093Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot 200
+[debug] [2025-10-30T22:38:54.093Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/bullingstooooop-bot {"projectNumber":"684892600261","projectId":"bullingstooooop-bot","lifecycleState":"ACTIVE","name":"bullingstooooop-bot","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-10-30T21:46:19.339235Z"}
+[info] i  functions: preparing codebase default for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2025-10-30T22:38:54.096Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:54.096Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:54.096Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bullingstooooop-bot/adminSdkConfig [none]
+[debug] [2025-10-30T22:38:54.521Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bullingstooooop-bot/adminSdkConfig 200
+[debug] [2025-10-30T22:38:54.522Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bullingstooooop-bot/adminSdkConfig {"projectId":"bullingstooooop-bot","storageBucket":"bullingstooooop-bot.firebasestorage.app"}
+[debug] [2025-10-30T22:38:54.522Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:54.522Z] Checked if tokens are valid: true, expires at: 1761867058439
+[debug] [2025-10-30T22:38:54.523Z] >>> [apiv2][query] GET https://runtimeconfig.googleapis.com/v1beta1/projects/bullingstooooop-bot/configs [none]
+[debug] [2025-10-30T22:38:54.930Z] <<< [apiv2][status] GET https://runtimeconfig.googleapis.com/v1beta1/projects/bullingstooooop-bot/configs 200
+[debug] [2025-10-30T22:38:54.930Z] <<< [apiv2][body] GET https://runtimeconfig.googleapis.com/v1beta1/projects/bullingstooooop-bot/configs {}
+[debug] [2025-10-30T22:38:54.932Z] Customer code is not Node
+[debug] [2025-10-30T22:38:54.935Z] Validating python source
+[debug] [2025-10-30T22:38:54.938Z] Building python source
+[info] i  functions: Loading and analyzing source code for codebase default to determine what to deploy 
+[debug] [2025-10-30T22:38:54.941Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-10-30T22:38:54.949Z] Running command with virtualenv: command=., args=["\"/home/roman/Projects/bullingstooooop_bot/functions/venv/bin/activate\"","&&","python3.12","-c","\"import firebase_functions; import os; print(os.path.dirname(firebase_functions.__file__))\""]
+[debug] [2025-10-30T22:38:55.013Z] stderr: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'firebase_functions'
+
+[error] 
+[error] Error: Failed to find location of Firebase Functions SDK. Did you forget to run '. "/home/roman/Projects/bullingstooooop_bot/functions/venv/bin/activate" && python3.12 -m pip install -r requirements.txt'?
